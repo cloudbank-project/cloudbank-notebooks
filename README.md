@@ -8,7 +8,23 @@ package. They provide interactive reporting for [CloudBank](https://www.cloudban
 See also the 
 [xdmod-notebooks](https://github.com/ubccr/xdmod-notebooks) on which these were based.
 
-## IMPORTANT: XDMoD access token
+## Setup
+
+To run these notebooks on a local machine, clone this repo locally, then follow the instructions
+below to set up JupyterLab using e.g. Anaconda. 
+
+### Download notebooks
+
+The contents of this repository can be downloaded from
+the [cloudbank-notebooks page](https://github.com/cloudbank-project/cloudbank-notebooks). 
+
+### Anaconda installation and use
+
+1. Install Anaconda following [these instructions](https://docs.anaconda.com/free/anaconda/install/index.html).
+1. Launch Jupyter Lab (NOT Jupyter Notebook).
+1. Navigate to the notebooks using the Jupyter Lab UI in the browser.
+
+### Set the XDMoD access token
 
 These notebooks connect to and use a remote data source. 
 Follow these instructions to acquire an XDMoD access token so you can
@@ -53,21 +69,6 @@ os.environ["XDMOD_HOST"] = "https://xdmod.access-ci.org"
 
 These steps will enable your notebooks to access the production XDMoD data warehouse.
 
-## Setup
-
-To run these notebooks on a local machine, clone this repo locally, then follow the instructions
-below to set up JupyterLab using e.g. Anaconda. 
-
-### Download notebooks
-
-The contents of this repository can be downloaded from
-the [cloudbank-notebooks page](https://github.com/cloudbank-project/cloudbank-notebooks). 
-
-### Anaconda installation and use
-
-1. Install Anaconda following [these instructions](https://docs.anaconda.com/free/anaconda/install/index.html).
-1. Launch Jupyter Lab (NOT Jupyter Notebook).
-1. Navigate to the notebooks using the Jupyter Lab UI in the browser.
 
 ## License
 
